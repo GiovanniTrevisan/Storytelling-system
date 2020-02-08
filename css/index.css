@@ -1,49 +1,46 @@
-
 .background {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  top: 0;
-  margin:0;
-  transition: 0.7s;
-  opacity: 1;
-
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: 0;
+    transition: 0.7s;
+    opacity: 1;
 }
-
-
 
 .gradient-1 {
-  background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
-  z-index: 1;
+    background: linear-gradient(90deg, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    z-index: 1;
 }
+
 .gradient-2 {
-  background: linear-gradient(90deg, rgba(121,9,9,1) 0%, rgba(255,0,0,1) 100%);
-  z-index: 2;
+    background: linear-gradient(90deg, rgba(121, 9, 9, 1) 0%, rgba(255, 0, 0, 1) 100%);
+    z-index: 2;
 }
+
 .gradient-3 {
-  background-image: linear-gradient(to right, hsl(226, 100%, 50%), hsl(162, 100%, 50%));
-  z-index: 3;
+    background-image: linear-gradient(to right, hsl(226, 100%, 50%), hsl(162, 100%, 50%));
+    z-index: 3;
 }
+
 .gradient-4 {
-  background-image: linear-gradient(to right, hsl(226, 100%, 50%), hsl(162, 100%, 50%));
-  z-index: 4;
+    background-image: linear-gradient(to right, hsl(226, 100%, 50%), hsl(162, 100%, 50%));
+    z-index: 4;
 }
-.z-index-max{
+
+.z-index-max {
     z-index: 5;
 }
 
-.content{
-    
+.content {
     padding: 25px 50px;
     margin: 100px 10vw;
     text-align: center;
     border: 5px solid white;
     border-radius: 10px;
-	position: relative;
-
+    position: relative;
 }
-
 
 .button {
     background-color: transparent;
@@ -58,16 +55,19 @@
     margin: 4px 2px;
     cursor: pointer;
     transition: all .4s ease;
-  }
-
-  .button:hover {
-    box-shadow: 0px 0px 30px 5px rgba(241,241,241,1);
-    -moz-box-shadow: 0px 0px 30px 5px rgba(241,241,241,1);
-    transition: all .4s ease;
-    -webkit-box-shadow: 0px 0px 30px 5px rgba(241,241,241,1);
-  }
-
-.hide{
-    opacity: 0;
 }
 
+.button:hover {
+    box-shadow: 0px 0px 30px 5px rgba(241, 241, 241, 1);
+    -moz-box-shadow: 0px 0px 30px 5px rgba(241, 241, 241, 1);
+    transition: all .4s ease;
+    -webkit-box-shadow: 0px 0px 30px 5px rgba(241, 241, 241, 1);
+}
+
+.gradient {
+    position: fixed;
+}
+
+.hide {
+    opacity: 0;
+}
