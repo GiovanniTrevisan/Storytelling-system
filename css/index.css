@@ -19,15 +19,6 @@
     z-index: 2;
 }
 
-.gradient-3 {
-    background-image: linear-gradient(to right, hsl(226, 100%, 50%), hsl(162, 100%, 50%));
-    z-index: 3;
-}
-
-.gradient-4 {
-    background-image: linear-gradient(to right, hsl(226, 100%, 50%), hsl(162, 100%, 50%));
-    z-index: 4;
-}
 
 .z-index-max {
     z-index: 5;
